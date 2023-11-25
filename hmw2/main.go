@@ -105,18 +105,18 @@ func add(a, b int) int {
 // 	return n * factorial(n-1)
 // }
 
-// func reverse(n int) int {
-// 	result := 0
-// 	var k int
-// 	for n > 0 {
-// 		k = n % 10
-// 		result *= 10.
-// 		result += k
+func reverse(n int) int {
+	result := 0
+	var k int
+	for n > 0 {
+		k = n % 10
+		result *= 10
+		result += k
 
-// 		n /= 10
-// 	}
-// 	return result
-// }
+		n /= 10
+	}
+	return result
+}
 
 func son(n int) string {
  var s string
@@ -356,16 +356,16 @@ func main() {
 	// fmt.Scan(&n)
 	// factorial(n)
 
-	//4 reverse
+	// 4 reverse
 
-	// var n int
-	// fmt.Scan(&n)
-	// fmt.Print(reverse(n))
+	var n int
+	fmt.Scan(&n)
+	fmt.Print(reverse(n))
 
 
 	//4 
-	var  n int 
-	fmt.Scan(&n)
-	son(n)
+	// var  n int 
+	// fmt.Scan(&n)
+	// son(n)
 
 }

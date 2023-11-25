@@ -212,6 +212,18 @@ func jadval(jadval int) {
 	}
 	fmt.Println()
 }
+
+func tubs(n int )string{
+	var result string
+	for i:=2;i<n/2;i++{
+		if n%i ==0{
+			result="tub son emass"
+		}else{
+			result="tub son"
+		}
+	}
+	return result
+}
 func main() {
 
 	// var son int
@@ -288,10 +300,11 @@ func main() {
 
 	// var n int
 	// fmt.Scan(&n)
+	// fmt.Println(tubs(n))
 	// toqSon(n)
 
-	var n int
-	fmt.Scan(&n)
-	jadval(n)
+	// var n int
+	// fmt.Scan(&n)
+	// jadval(n)
 
 }
