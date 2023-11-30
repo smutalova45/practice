@@ -61,8 +61,11 @@ func (g Game) StartGame(){ //game ni methodi oyin boshlash uchun
 
 			rand.Intn(20)
 		}
-		if n==g.RandomNumber && g.Player.favouriteNumber==g.RandomNumber{
-			fmt.Println("you won! in " ,i+1,"tries and your favourite number was random number")
+		if n==g.RandomNumber {
+			if  g.Player.favouriteNumber==g.RandomNumber {
+				fmt.Println("and your favourite number was random number")
+			}
+			fmt.Println("you won! in " ,i+1,"tries")
 			return
         }else {
 			fmt.Println("incorrect")
@@ -71,6 +74,8 @@ func (g Game) StartGame(){ //game ni methodi oyin boshlash uchun
 			}else if g.RandomNumber>5 && g.RandomNumber<10{
 	
 				fmt.Println("it is between 5 and 10")
+			}else if g.RandomNumber>1 && g.RandomNumber<5{
+				fmt.Println("between 1 and 5")
 			}
 		}
 		
