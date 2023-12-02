@@ -126,7 +126,7 @@ func son(n int) string {
 		switch k {
 
 		case 1:
-			s = "bir "
+			s= "bir "
 			fmt.Print(s)
 		case 2:
 			s = "ikki "
