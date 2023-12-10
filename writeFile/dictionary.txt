@@ -1,0 +1,11 @@
+1. apple - olma
+ 2. hello - salom
+ 3. world - dunyo
+ 4. pen - ruchka
+ 5. pencil - qalam
+ 6. boys - bolalar
+ 7. girls - qizlar
+ 8. age  - yosh
+ 9. digit  - raqam
+ 10. cloud - bulut
+ 
